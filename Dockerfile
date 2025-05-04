@@ -1,5 +1,5 @@
 # Use the official Node.js image as the base image
-FROM node:16
+FROM --platform=linux/amd64 node:16-slim
 
 # Create and change to the app directory
 WORKDIR /app

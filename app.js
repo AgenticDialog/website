@@ -1,6 +1,14 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const cors = require("cors");
+
+const emailRoutes = require("./routes/emailRoutes");
+const mailRoutes = require("./routes/formRoutes");
+
+
+app.use(express.json());
+app.use(cors());
 
 // Set the port
 const PORT = process.env.PORT || 3000;
@@ -14,9 +22,12 @@ app.get('/', (req, res) => {
 });
 
 // Define a "Hello World" API endpoint
-app.get('/api/helloworld', (req, res) => {
-  res.json({ message: 'Hello World' });
-});
+// app.get('/api/helloworld', (req, res) => {
+//   res.json({ message: 'Hello World' });
+// });
+
+// app.use("/api", mailRoutes);
+app.use("/api/email", emailRoutes);
 
 // Start the server
 app.listen(PORT, () => {
