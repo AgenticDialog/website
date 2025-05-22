@@ -43,10 +43,11 @@
 
         /* Main Content Styling */
         .terms-section {
-            padding-top: 130px;
+            padding-top: 150px;
             padding-bottom: 100px;
             background: linear-gradient(135deg, #f5f7fa 0%, #e0e7ff 100%);
         }
+
         .terms-card {
             background: #ffffff;
             border-radius: 12px;
@@ -55,48 +56,58 @@
             margin-bottom: 25px;
             transition: transform 0.3s ease;
         }
+
         .terms-card:hover {
             transform: translateY(-5px);
         }
+
         .terms-section h1 {
             font-size: 2.25rem;
             color: #0D1A1C;
             font-weight: 700;
             margin-bottom: 35px;
         }
+
         .terms-section h3 {
             font-size: 1.5rem;
             color: #0D1A1C;
             font-weight: 600;
             margin-bottom: 15px;
         }
-        .terms-section p, .terms-section li {
+
+        .terms-section p,
+        .terms-section li {
             font-size: 0.95rem;
             color: #555;
             line-height: 1.7;
         }
+
         .terms-section ul {
             margin-bottom: 15px;
         }
+
         .terms-section li {
             margin-bottom: 8px;
 
-        @media (max-width: 767px) {
-            .terms-section {
-                padding-top: 80px;
-                padding-bottom: 40px;
+            @media (max-width: 767px) {
+                .terms-section {
+                    padding-top: 80px;
+                    padding-bottom: 40px;
+                }
+
+                .terms-card {
+                    padding: 20px;
+                    margin-bottom: 20px;
+                }
+
+                .terms-section h1 {
+                    font-size: 1.75rem;
+                }
+
+                .terms-section h3 {
+                    font-size: 1.25rem;
+                }
             }
-            .terms-card {
-                padding: 20px;
-                margin-bottom: 20px;
-            }
-            .terms-section h1 {
-                font-size: 1.75rem;
-            }
-            .terms-section h3 {
-                font-size: 1.25rem;
-            }
-        }
 
         }
     </style>
@@ -117,17 +128,9 @@
         <div id="preloader">
             <div id="ctn-preloader" class="ctn-preloader">
                 <div class="icon">
-                    <img src="images/logo.png" alt="" class="m-auto d-block mix-blend-darken" />
+                    <img src="images/Website-logo/Agentic-Dialog-white.png" alt="Dialog Icon"
+                        class="m-auto d-block mix-blend-darken" style="width: 100%; height: 100%;" />
                     <span></span>
-                </div>
-                <div class="txt-loading">
-                    <span data-text-preloader="A" class="letters-loading"> A </span>
-                    <span data-text-preloader="G" class="letters-loading"> G </span>
-                    <span data-text-preloader="E" class="letters-loading"> E </span>
-                    <span data-text-preloader="N" class="letters-loading"> N </span>
-                    <span data-text-preloader="T" class="letters-loading"> T </span>
-                    <span data-text-preloader="I" class="letters-loading"> I </span>
-                    <span data-text-preloader="C" class="letters-loading"> C </span>
                 </div>
             </div>
         </div>
@@ -138,20 +141,23 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="logo order-lg-0">
                             <a href="index.html" class="d-flex align-items-center">
-                                <img src="images/logo/logo_02.svg" alt="">
+                                <img src="images/Website-logo/Agentic-Dialog-dark.png" alt=""
+                                    style="max-width: 195px; height: auto;" />
                             </a>
                         </div>
                         <!-- logo -->
                         <div class="right-widget ms-auto ms-lg-0 me-3 me-lg-0 order-lg-3">
                             <ul class="d-flex align-items-center style-none">
                                 <li class="login-btn-two">
-                                    <a href="https://www.facebook.com/agenticdialog" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/agenticdialog" target="_blank"><i
+                                            class="fa-brands fa-facebook"></i></a>
                                 </li>
                                 <li class="login-btn-two">
                                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
                                 </li>
                                 <li class="login-btn-two">
-                                    <a href="https://www.instagram.com/agenticdialog" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/agenticdialog" target="_blank"><i
+                                            class="fa-brands fa-instagram"></i></a>
                                 </li>
                                 <li class="d-none d-sm-block ms-3">
                                     <a href="https://dialog-ui.proudisland-ea2368db.francecentral.azurecontainerapps.io/"
@@ -169,7 +175,7 @@
                                 <ul class="navbar-nav align-items-lg-center">
                                     <li class="d-block d-lg-none">
                                         <div class="logo"><a href="index.html" class="d-block"><img
-                                                    src="images/logo/logo_02.svg" alt=""></a></div>
+                                                    src="images/Website-logo/Agentic-Dialog-dark.png" alt="" style="max-width: 195px; height: auto;"></a></div>
                                     </li>
                                     <li class="nav-item ">
                                         <a class="nav-link" href="index.html">Home
@@ -214,8 +220,13 @@
                         <!-- Welcome -->
                         <div class="terms-card" data-sal="slide-up" data-sal-delay="300">
                             <h3>Welcome to Agentic Dialog</h3>
-                            <p>Welcome to Agentic Dialog. These Terms of Service ("Terms") govern your use of our website, services, and any related products provided by Agentic Dialog. Our AI-powered platform enables automated customer communication through chat, voice, SMS, WhatsApp, email, and social media channels.</p>
-                            <p>By accessing or using our services, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree, please do not access or use our services.</p>
+                            <p>Welcome to Agentic Dialog. These Terms of Service ("Terms") govern your use of our
+                                website, services, and any related products provided by Agentic Dialog. Our AI-powered
+                                platform enables automated customer communication through chat, voice, SMS, WhatsApp,
+                                email, and social media channels.</p>
+                            <p>By accessing or using our services, you acknowledge that you have read, understood, and
+                                agree to be bound by these Terms. If you do not agree, please do not access or use our
+                                services.</p>
                         </div>
 
                         <!-- Acceptance of Terms -->
@@ -224,65 +235,82 @@
                             <p>By using Agentic Dialog, you confirm that:</p>
                             <ul class="list-unstyled ps-4">
                                 <li>You are of legal age and authorized to enter into these Terms.</li>
-                                <li>If you are accessing our services on behalf of a company, you have the authority to bind that company to these Terms.</li>
+                                <li>If you are accessing our services on behalf of a company, you have the authority to
+                                    bind that company to these Terms.</li>
                             </ul>
-                            <p>These Terms apply each time you use our services and may be updated from time to time. Continued use after any updates constitutes your acceptance of the revised Terms.</p>
+                            <p>These Terms apply each time you use our services and may be updated from time to time.
+                                Continued use after any updates constitutes your acceptance of the revised Terms.</p>
                         </div>
 
                         <!-- Use of Services -->
                         <div class="terms-card" data-sal="slide-up" data-sal-delay="500">
                             <h3>2. Use of Services</h3>
-                            <p><strong>Access Rights:</strong> You are granted a non-exclusive, limited right to use the services for legitimate business purposes in accordance with these Terms.</p>
-                            <p><strong>Account Responsibilities:</strong> You are responsible for maintaining the confidentiality of your account credentials and for all activities conducted through your account.</p>
+                            <p><strong>Access Rights:</strong> You are granted a non-exclusive, limited right to use the
+                                services for legitimate business purposes in accordance with these Terms.</p>
+                            <p><strong>Account Responsibilities:</strong> You are responsible for maintaining the
+                                confidentiality of your account credentials and for all activities conducted through
+                                your account.</p>
                             <p><strong>Restrictions:</strong> You may not:</p>
                             <ul class="list-unstyled ps-4">
                                 <li>Use the services for unlawful, harmful, or fraudulent purposes.</li>
                                 <li>Attempt unauthorized access to our systems or services.</li>
-                                <li>Modify, distribute, or reproduce any part of our platform without written permission.</li>
+                                <li>Modify, distribute, or reproduce any part of our platform without written
+                                    permission.</li>
                             </ul>
                         </div>
 
                         <!-- Payment and Subscriptions -->
                         <div class="terms-card" data-sal="slide-up" data-sal-delay="600">
                             <h3>3. Payment and Subscriptions</h3>
-                            <p>Some services may require payment. Payments are processed securely through third-party processors. We do not store or access your payment information. By subscribing, you agree to the applicable pricing, billing terms, and any renewal policies.</p>
+                            <p>Some services may require payment. Payments are processed securely through third-party
+                                processors. We do not store or access your payment information. By subscribing, you
+                                agree to the applicable pricing, billing terms, and any renewal policies.</p>
                         </div>
 
                         <!-- Data Privacy and Protection -->
                         <div class="terms-card" data-sal="slide-up" data-sal-delay="700">
                             <h3>4. Data Privacy and Protection</h3>
-                            <p>We collect only business-specific data with your explicit consent, which is used to personalize and optimize service delivery. For full details on how we handle your data, please refer to our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+                            <p>We collect only business-specific data with your explicit consent, which is used to
+                                personalize and optimize service delivery. For full details on how we handle your data,
+                                please refer to our <a href="privacy-policy.html">Privacy Policy</a>.</p>
                         </div>
 
                         <!-- Service Changes and Termination -->
                         <div class="terms-card" data-sal="slide-up" data-sal-delay="800">
                             <h3>5. Service Changes and Termination</h3>
-                            <p>We may modify or discontinue services at any time. We reserve the right to suspend or terminate your access if you violate these Terms or use the services inappropriately.</p>
+                            <p>We may modify or discontinue services at any time. We reserve the right to suspend or
+                                terminate your access if you violate these Terms or use the services inappropriately.
+                            </p>
                         </div>
 
                         <!-- Disclaimers and Limitation of Liability -->
                         <div class="terms-card" data-sal="slide-up" data-sal-delay="900">
                             <h3>6. Disclaimers and Limitation of Liability</h3>
-                            <p>Our services are provided "as is" without warranties of any kind. We do not guarantee uninterrupted or error-free service. To the extent permitted by law, Agentic Dialog is not liable for any damages resulting from your use of the services.</p>
+                            <p>Our services are provided "as is" without warranties of any kind. We do not guarantee
+                                uninterrupted or error-free service. To the extent permitted by law, Agentic Dialog is
+                                not liable for any damages resulting from your use of the services.</p>
                         </div>
 
                         <!-- Governing Law -->
                         <div class="terms-card" data-sal="slide-up" data-sal-delay="1000">
                             <h3>7. Governing Law</h3>
-                            <p>These Terms are governed by the laws of Pakistan. Any disputes arising from these Terms shall be subject to the exclusive jurisdiction of the courts in Karachi, Pakistan.</p>
+                            <p>These Terms are governed by the laws of Pakistan. Any disputes arising from these Terms
+                                shall be subject to the exclusive jurisdiction of the courts in Karachi, Pakistan.</p>
                         </div>
 
                         <!-- Contact Information -->
                         <div class="terms-card" data-sal="slide-up" data-sal-delay="1100">
                             <h3>8. Contact Information</h3>
                             <p>If you have questions about these Terms, please contact us at:</p>
-                            <p><strong>Email:</strong> <a href="mailto:support@agenticdialog.com">support@agenticdialog.com</a></p>
+                            <p><strong>Email:</strong> <a
+                                    href="mailto:support@agenticdialog.com">support@agenticdialog.com</a></p>
                         </div>
 
                         <!-- Acknowledgment -->
                         <div class="terms-card" data-sal="slide-up" data-sal-delay="1200">
                             <h3>9. Acknowledgment</h3>
-                            <p>By using our services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.</p>
+                            <p>By using our services, you acknowledge that you have read, understood, and agree to be
+                                bound by these Terms of Service.</p>
                             <p><strong>Effective Date:</strong> May 22, 2025</p>
                         </div>
                     </div>
@@ -340,13 +368,15 @@
                                     AGENTIC</a>
                                 <ul class="style-none d-flex align-items-center social-icon">
                                     <li>
-                                        <a href="https://www.facebook.com/agenticdialog" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="https://www.facebook.com/agenticdialog" target="_blank"><i
+                                                class="fa-brands fa-facebook"></i></a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/agenticdialog" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="https://www.instagram.com/agenticdialog" target="_blank"><i
+                                                class="fa-brands fa-instagram"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -354,7 +384,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <!-- <div class="container">
                 <div class="bottom-footer">
                     <div class="d-md-flex align-items-center justify-content-between">
                         <div class="d-flex justify-content-center align-items-center sm-mb-20">
@@ -369,7 +399,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- /.footer-one -->
 
