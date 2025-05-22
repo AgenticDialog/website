@@ -36,6 +36,71 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
 
+    <style>
+        .footer-one .footer-intro h3 {
+            font-size: 50px;
+        }
+
+        /* Main Content Styling */
+        .terms-section {
+            padding-top: 130px;
+            padding-bottom: 100px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e0e7ff 100%);
+        }
+        .terms-card {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: transform 0.3s ease;
+        }
+        .terms-card:hover {
+            transform: translateY(-5px);
+        }
+        .terms-section h1 {
+            font-size: 2.25rem;
+            color: #0D1A1C;
+            font-weight: 700;
+            margin-bottom: 35px;
+        }
+        .terms-section h3 {
+            font-size: 1.5rem;
+            color: #0D1A1C;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .terms-section p, .terms-section li {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.7;
+        }
+        .terms-section ul {
+            margin-bottom: 15px;
+        }
+        .terms-section li {
+            margin-bottom: 8px;
+
+        @media (max-width: 767px) {
+            .terms-section {
+                padding-top: 80px;
+                padding-bottom: 40px;
+            }
+            .terms-card {
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            .terms-section h1 {
+                font-size: 1.75rem;
+            }
+            .terms-section h3 {
+                font-size: 1.25rem;
+            }
+        }
+
+        }
+    </style>
+
     <!-- Fix Internet Explorer ______________________________________-->
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -66,8 +131,6 @@
                 </div>
             </div>
         </div>
-
-
 
         <header class="theme-main-menu menu-style-two menu-overlay sticky-menu">
             <div class="inner-content">
@@ -140,6 +203,93 @@
             </div> <!-- /.inner-content -->
         </header>
 
+        <!-- Main Section -->
+
+        <section class="terms-section section-space">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-md-12">
+                        <h1 class="text-center mb-5" data-sal="slide-up" data-sal-delay="200">Terms of Service</h1>
+
+                        <!-- Welcome -->
+                        <div class="terms-card" data-sal="slide-up" data-sal-delay="300">
+                            <h3>Welcome to Agentic Dialog</h3>
+                            <p>Welcome to Agentic Dialog. These Terms of Service ("Terms") govern your use of our website, services, and any related products provided by Agentic Dialog. Our AI-powered platform enables automated customer communication through chat, voice, SMS, WhatsApp, email, and social media channels.</p>
+                            <p>By accessing or using our services, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree, please do not access or use our services.</p>
+                        </div>
+
+                        <!-- Acceptance of Terms -->
+                        <div class="terms-card" data-sal="slide-up" data-sal-delay="400">
+                            <h3>1. Acceptance of Terms</h3>
+                            <p>By using Agentic Dialog, you confirm that:</p>
+                            <ul class="list-unstyled ps-4">
+                                <li>You are of legal age and authorized to enter into these Terms.</li>
+                                <li>If you are accessing our services on behalf of a company, you have the authority to bind that company to these Terms.</li>
+                            </ul>
+                            <p>These Terms apply each time you use our services and may be updated from time to time. Continued use after any updates constitutes your acceptance of the revised Terms.</p>
+                        </div>
+
+                        <!-- Use of Services -->
+                        <div class="terms-card" data-sal="slide-up" data-sal-delay="500">
+                            <h3>2. Use of Services</h3>
+                            <p><strong>Access Rights:</strong> You are granted a non-exclusive, limited right to use the services for legitimate business purposes in accordance with these Terms.</p>
+                            <p><strong>Account Responsibilities:</strong> You are responsible for maintaining the confidentiality of your account credentials and for all activities conducted through your account.</p>
+                            <p><strong>Restrictions:</strong> You may not:</p>
+                            <ul class="list-unstyled ps-4">
+                                <li>Use the services for unlawful, harmful, or fraudulent purposes.</li>
+                                <li>Attempt unauthorized access to our systems or services.</li>
+                                <li>Modify, distribute, or reproduce any part of our platform without written permission.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Payment and Subscriptions -->
+                        <div class="terms-card" data-sal="slide-up" data-sal-delay="600">
+                            <h3>3. Payment and Subscriptions</h3>
+                            <p>Some services may require payment. Payments are processed securely through third-party processors. We do not store or access your payment information. By subscribing, you agree to the applicable pricing, billing terms, and any renewal policies.</p>
+                        </div>
+
+                        <!-- Data Privacy and Protection -->
+                        <div class="terms-card" data-sal="slide-up" data-sal-delay="700">
+                            <h3>4. Data Privacy and Protection</h3>
+                            <p>We collect only business-specific data with your explicit consent, which is used to personalize and optimize service delivery. For full details on how we handle your data, please refer to our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+                        </div>
+
+                        <!-- Service Changes and Termination -->
+                        <div class="terms-card" data-sal="slide-up" data-sal-delay="800">
+                            <h3>5. Service Changes and Termination</h3>
+                            <p>We may modify or discontinue services at any time. We reserve the right to suspend or terminate your access if you violate these Terms or use the services inappropriately.</p>
+                        </div>
+
+                        <!-- Disclaimers and Limitation of Liability -->
+                        <div class="terms-card" data-sal="slide-up" data-sal-delay="900">
+                            <h3>6. Disclaimers and Limitation of Liability</h3>
+                            <p>Our services are provided "as is" without warranties of any kind. We do not guarantee uninterrupted or error-free service. To the extent permitted by law, Agentic Dialog is not liable for any damages resulting from your use of the services.</p>
+                        </div>
+
+                        <!-- Governing Law -->
+                        <div class="terms-card" data-sal="slide-up" data-sal-delay="1000">
+                            <h3>7. Governing Law</h3>
+                            <p>These Terms are governed by the laws of Pakistan. Any disputes arising from these Terms shall be subject to the exclusive jurisdiction of the courts in Karachi, Pakistan.</p>
+                        </div>
+
+                        <!-- Contact Information -->
+                        <div class="terms-card" data-sal="slide-up" data-sal-delay="1100">
+                            <h3>8. Contact Information</h3>
+                            <p>If you have questions about these Terms, please contact us at:</p>
+                            <p><strong>Email:</strong> <a href="mailto:support@agenticdialog.com">support@agenticdialog.com</a></p>
+                        </div>
+
+                        <!-- Acknowledgment -->
+                        <div class="terms-card" data-sal="slide-up" data-sal-delay="1200">
+                            <h3>9. Acknowledgment</h3>
+                            <p>By using our services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.</p>
+                            <p><strong>Effective Date:</strong> May 22, 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.terms-section -->
 
         <!--
 		=====================================================
@@ -175,12 +325,12 @@
                         <div class="col-lg-2 col-md-4 col-6">
                             <div class="footer-nav mb-30">
                                 <ul class="footer-nav-link style-none">
-                                    <li><a href="faq.html">Privacy Policy</a></li>
-                                    <li><a href="faq.html">Terms and Conditions</a></li>
+                                    <li><a href="Privacy-policy.html">Privacy Policy</a></li>
+                                    <li><a href="Terms-conditions.html">Terms and Conditions</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 ps-5">
                             <div class="footer-contact mb-30 ps-xxl-5">
                                 <p class="fw-500">
                                     A-98, Wasim bagh, Block 13D/2, Gulshan-e-Iqbal, Karachi -
