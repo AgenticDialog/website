@@ -1,0 +1,162 @@
+/* Theme color overrides using #66b6b1 (teal) and #297bbf (blue) */
+
+/* Meta theme color */
+meta[name="theme-color"],
+meta[name="msapplication-navbutton-color"],
+meta[name="apple-mobile-web-app-status-bar-style"] {
+    content: #66b6b1 !important;
+}
+
+/* Header styles */
+.theme-main-menu.menu-style-two {
+    background-color: #66b6b1;
+}
+.theme-main-menu .top-header .right-widget .signup-btn-two {
+    background-color: #297bbf;
+    color: #ffffff;
+}
+.theme-main-menu .top-header .right-widget .signup-btn-two:hover {
+    background-color: #1f5f9f; /* Darker blue for hover */
+}
+
+/* Hero banner */
+.hero-banner-two {
+    background-color: #f5f9fc; /* Light background to complement teal */
+}
+.hero-banner-two .hero-heading {
+    color: #297bbf;
+}
+.hero-banner-two .btn-seven {
+    background-color: #66b6b1;
+    color: #ffffff;
+}
+.hero-banner-two .btn-seven:hover {
+    background-color: #529e9a; /* Darker teal for hover */
+}
+
+/* Block feature seven */
+.block-feature-seven .block .icon {
+    background-color: #66b6b1 !important;
+}
+.block-feature-seven .block:nth-child(2) .icon {
+    background-color: #297bbf !important;
+}
+.block-feature-seven .block:nth-child(3) .icon {
+    background-color: #1f5f9f !important; /* Slightly darker blue */
+}
+.block-feature-seven .block h4 {
+    color: #297bbf;
+}
+
+/* Block feature one */
+.block-feature-one .title-one h2 {
+    color: #297bbf;
+}
+.block-feature-one .card-style-one .icon {
+    background-color: #66b6b1;
+}
+.block-feature-one .card-style-one h4 {
+    color: #297bbf;
+}
+
+/* Block feature four */
+.block-feature-four .card-style-two {
+    background-color: #66b6b1 !important;
+}
+.block-feature-four .card-style-two.child-two {
+    background-color: #297bbf !important;
+}
+.block-feature-four .card-style-two.child-three {
+    background-color: #529e9a !important; /* Lighter teal variant */
+}
+.block-feature-four .card-style-two:nth-child(4) {
+    background-color: #1f5f9f !important; /* Darker blue variant */
+}
+.block-feature-four .card-style-two .check-out-btn .round-icon {
+    background-color: #ffffff;
+    color: #297bbf;
+}
+.block-feature-four .card-style-two .check-out-btn:hover .round-icon {
+    background-color: #e6f0f5;
+}
+
+/* App integration section */
+.app-integration-two .icon-box .icon {
+    background-color: #66b6b1;
+}
+.app-integration-two .icon-box .text h6 {
+    color: #297bbf;
+}
+
+/* Feedback section */
+.feedback-section-four .main-title h2 {
+    color: #297bbf;
+}
+.feedback-section-four .feedback-card-two h3 span {
+    background-color: #66b6b1 !important;
+}
+.feedback-section-four .feedback-card-two .rating li i {
+    color: #297bbf;
+}
+
+/* Fancy banner three */
+.fancy-banner-three {
+    background-color: #f5f9fc;
+}
+.fancy-banner-three h2 {
+    color: #297bbf;
+}
+.fancy-banner-three h2 span {
+    color: #66b6b1;
+}
+.fancy-banner-three .btn-seven {
+    background-color: #66b6b1;
+    color: #ffffff;
+}
+.fancy-banner-three .btn-seven:hover {
+    background-color: #529e9a;
+}
+
+/* Footer */
+.footer-one {
+    background-color: #297bbf;
+}
+.footer-one .footer-intro h3 {
+    color: #ffffff;
+}
+.footer-one .footer-intro h3 span {
+    color: #66b6b1;
+}
+.footer-one .footer-nav-link a {
+    color: #ffffff;
+}
+.footer-one .footer-nav-link a:hover {
+    color: #66b6b1;
+}
+.footer-one .footer-contact p,
+.footer-one .footer-contact a {
+    color: #ffffff;
+}
+.footer-one .footer-contact a:hover {
+    color: #66b6b1;
+}
+.footer-one .footer-contact .social-icon a {
+    color: #ffffff;
+}
+.footer-one .footer-contact .social-icon a:hover {
+    color: #66b6b1;
+}
+.footer-one form#subscribe-form button {
+    background-color: #66b6b1;
+}
+.footer-one form#subscribe-form button:hover {
+    background-color: #529e9a;
+}
+
+/* Scroll top button */
+.scroll-top {
+    background-color: #297bbf;
+}
+.scroll-top:hover {
+    background-color: #66b6b1;
+}

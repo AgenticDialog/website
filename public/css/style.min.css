@@ -2080,8 +2080,6 @@ p {
   display: inline-block;
   position: relative;
   /* Adjust size to match the circular icon in the logo */
-  width: 450px;
-  height: 450px;
 }
 
 .ctn-preloader .icon span {
@@ -2101,7 +2099,7 @@ p {
   position: absolute;
   width: 9px;
   height: 9px;
-  top: 250px;
+  top: 0px;
   left: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
