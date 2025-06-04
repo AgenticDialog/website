@@ -2491,13 +2491,13 @@ p {
   border-radius: 50px;
   padding: 0 45px;
   line-height: 60px;
-  background: #ff481f;
+  background: #297bbf;
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
 }
 
 .btn-seven:hover {
-  background: #000;
+  background: #66b6b1;
 }
 
 .btn-eight {
@@ -3260,7 +3260,7 @@ p {
 }
 
 .theme-main-menu .login-btn-two:hover {
-  background: #7e2fff;
+  background: #66b6b1;
   color: #fff;
 }
 
@@ -3303,14 +3303,14 @@ p {
   font-size: 18px;
   line-height: 45px;
   padding: 0 30px;
-  color: #000;
+  color: #fff;
   border-radius: 30px;
-  background: #faff08;
+  background: #297bbf;
   transition: all 0.3s ease-in-out 0s;
 }
 
 .theme-main-menu .signup-btn-two:hover {
-  background: #7e2fff;
+  background: #66b6b1;
   color: #fff;
 }
 
@@ -3928,12 +3928,12 @@ p {
   top: 50%;
   transform: translateY(-50%);
   left: 0;
-  background: linear-gradient(180deg,
-      #ffffff 0%,
-      #e3cdff 59.02%,
-      #e2ccff 65.99%,
-      rgba(215, 196, 255, 0.6) 75.34%,
-      rgba(232, 208, 255, 0) 100%);
+ background: linear-gradient(180deg,
+      #ffffff 0%, /* Kept as is */
+      #e6f5f3 55%, /* Ultra-light teal from #66b6b1 */
+      #e1f0fa 70%, /* Ultra-light blue from #297bbf */
+      rgba(230, 245, 243, 0.5) 80%, /* Very subtle semi-transparent teal */
+      rgba(225, 240, 250, 0) 100%); /* Fully transparent ultra-light blue */
   z-index: -2;
 }
 
@@ -3964,12 +3964,12 @@ p {
   right: 10px;
   top: 10px;
   border-radius: 10px;
-  background: #7e2fff;
+  background: #297bbf;
   position: absolute;
 }
 
 .hero-banner-two form button:hover {
-  background: #ff640f;
+  background: #66b6b1;
 }
 
 .hero-banner-two form .icon {
@@ -4605,7 +4605,8 @@ p {
 }
 
 .fancy-banner-three {
-  background: #e7f2f6;
+  background: linear-gradient(to right, #5fa3db, #8ed1cd);
+
 }
 
 .fancy-banner-three:before {
@@ -4628,7 +4629,7 @@ p {
 }
 
 .fancy-banner-three h2 span {
-  color: #ff481f;
+  color: #206298;
 }
 
 .fancy-banner-four .bg-wrapper {
@@ -6094,10 +6095,8 @@ p {
   width: 80px;
   height: 80px;
   padding: 18px;
-  background: linear-gradient(234.5deg,
-      #ffd190 22.65%,
-      #ff5599 76.31%,
-      #ff14cc 90.61%);
+  background: linear-gradient(135deg, #297bbf 15%, #4aa8b8 50%, #66b6b1 85%);
+
 }
 
 .card-style-one .icon.bg-dark {
@@ -7603,7 +7602,7 @@ p {
 .app-integration-two .icon-box .icon {
   width: 244px;
   height: 244px;
-  border: 1px solid #ff481f;
+  border: 1px solid #297bbf;
   background: #fff;
   padding: 15px;
   margin: auto;
@@ -9867,7 +9866,7 @@ p {
 }
 
 .footer-one .footer-nav-link a:hover {
-  color: #ff481f;
+  color: #297bbf;
 }
 
 .footer-one .footer-contact .tel {
@@ -9902,8 +9901,8 @@ p {
 }
 
 .footer-one .footer-contact .social-icon li a:hover {
-  background: #ff481f;
-  border-color: #ff481f;
+  background: #66b6b1;
+  border-color: #66b6b1;
   color: #fff;
 }
 
