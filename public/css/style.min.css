@@ -3930,10 +3930,10 @@ p {
   left: 0;
  background: linear-gradient(180deg,
       #ffffff 0%, /* Kept as is */
-      #e6f5f3 55%, /* Ultra-light teal from #66b6b1 */
-      #e1f0fa 70%, /* Ultra-light blue from #297bbf */
-      rgba(230, 245, 243, 0.5) 80%, /* Very subtle semi-transparent teal */
-      rgba(225, 240, 250, 0) 100%); /* Fully transparent ultra-light blue */
+      #c2e6e1 55%, /* Slightly darker pale teal from #66b6b1 */
+      #b8deef 70%, /* Slightly darker pale blue from #297bbf */
+      rgba(194, 230, 225, 0.5) 80%, /* Semi-transparent slightly darker teal */
+      rgba(184, 222, 239, 0) 100%); /* Fully transparent slightly darker blue */
   z-index: -2;
 }
 
