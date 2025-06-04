@@ -3980,14 +3980,14 @@ p {
 }
 
 .hero-banner-two .shape_01 {
-  left: 8%;
+  left: 6%;
   top: 29%;
   max-width: 14%;
   animation: jumpTwo 5s infinite linear;
 }
 
 .hero-banner-two .shape_02 {
-  right: 7%;
+  right: 5%;
   top: 29%;
   max-width: 13%;
   animation: jumpThree 5s infinite linear;
@@ -6085,10 +6085,10 @@ p {
 }
 
 .card-style-one {
-  background: #fff;
+  background: #e8f3f7;
   border-radius: 50px;
   padding: 35px 40px 20px;
-  border: 1px solid rgba(216, 216, 216, 0.4);
+  border: 1px solid rgba(196, 196, 196, 0.4);
 }
 
 .card-style-one .icon {
@@ -9850,11 +9850,16 @@ p {
 }
 
 .footer-one .footer-intro form button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 60px;
+    width: 52px;
+    height: 50px;
+    right: 10px;
+    top: 10px;
+    border-radius: 10px;
+    background: #297bbf;
+    position: absolute;
+}
+.footer-one .footer-intro form button:hover {
+  background: #66b6b1;
 }
 
 .footer-one .footer-nav-link a {
