@@ -9,8 +9,8 @@ exports.sendMail = async (req, res) => {
     }
 
     const mailOptions = {
-      from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_RECEIVER, // Jis email pr data bhejna hai
+      from: process.env.SMTP_USER, // Jis email se data bhejna hai
+      to: process.env.SMTP_USER, // Jis email pr data bhejna hai
       subject: "New Form Submission",
       html: `
         <h3>New Form Submission</h3>

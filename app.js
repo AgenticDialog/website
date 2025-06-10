@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const cors = require("cors");
+require("dotenv").config();
 
 const emailRoutes = require("./routes/emailRoutes");
 const mailRoutes = require("./routes/formRoutes");
@@ -26,7 +27,7 @@ app.get('/', (req, res) => {
 //   res.json({ message: 'Hello World' });
 // });
 
-// app.use("/api", mailRoutes);
+app.use("/api", mailRoutes);
 app.use("/api/email", emailRoutes);
 
 // Start the server
