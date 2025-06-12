@@ -3057,7 +3057,7 @@ p {
 }
 
 .theme-main-menu.menu-style-two .inner-content {
-  background: #000;
+  background: #8cd0ce;
   border-radius: 100px;
   padding: 15px 30px;
 }
@@ -3955,7 +3955,7 @@ p {
   border: none;
   border-radius: 12px;
   background: #fff;
-  padding: 0 100px 0 54px;
+  padding: 0 100px 0 30px;
   font-size: 18px;
 }
 
@@ -4606,11 +4606,11 @@ p {
 }
 
 .fancy-banner-three {
-  background: linear-gradient(to right, #5fa3db, #8ed1cd);
+background: linear-gradient(135deg, #5fa3db, #7fcfce, #8ed1cd);
 
 }
 
-.fancy-banner-three:before {
+/* .fancy-banner-three:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -4620,7 +4620,7 @@ p {
   background: url(../images/assets/bg_06.png) no-repeat center bottom;
   background-size: cover;
   z-index: -1;
-}
+} */
 
 .fancy-banner-three h2 {
   font-family: "Outfit", sans-serif;
@@ -6108,7 +6108,7 @@ p {
   font-size: 30px;
   letter-spacing: -0.96px;
   line-height: 1.25em;
-  margin: 120px 0 20px;
+  margin: 62px 0 20px;
 }
 
 .card-style-one .step {
