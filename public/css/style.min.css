@@ -3981,9 +3981,9 @@ p {
 }
 
 .hero-banner-two .shape_01 {
-  left: 6%;
+  left: 3%;
   top: 29%;
-  max-width: 14%;
+  max-width: 18%;
   animation: jumpTwo 5s infinite linear;
 }
 
